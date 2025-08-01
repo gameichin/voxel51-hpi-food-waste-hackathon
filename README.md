@@ -148,3 +148,7 @@ The combination of data augmentation, cleaned labels, and the CLIP model archite
 - Recognize food waste items accurately
 - Handle variations in food presentation
 - Provide better nutritional inference from visual data
+
+
+### Curated DS Link
+[Dataset Link](https://drive.google.com/drive/folders/18TMxpcAUJWQovhR-L9kDbhhRBuFtYZUz?usp=drive_link)
