@@ -118,3 +118,33 @@ The project includes two main Jupyter notebooks that document the complete data 
 
 For setup instructions and Voxel51 integration examples, please refer to the notebooks or contact the development team.
 
+---
+
+## Training Process
+
+### Model Training Steps
+
+Our training process evolved through several iterations to improve model performance:
+
+#### Initial Training
+- First trained the model with the raw data as-is
+- Results were not satisfactory, leading to several improvements
+
+#### Data Augmentation
+- **Added horizontal and vertical flip augmentation** to increase dataset diversity and improve model generalization
+- This helps the model learn from different perspectives of the same food items
+
+#### Label Processing
+- **Transformed labels** by converting German labels to English
+- **Removed duplicate labels** to ensure consistency
+- **Cleaned extra spaces** from labels for standardized formatting
+
+#### Model Architecture
+- **Used the CLIP model** for training, which provides strong visual-semantic understanding
+- CLIP (Contrastive Language-Image Pre-training) enables better zero-shot learning capabilities for food waste recognition
+
+### Training Outcomes
+The combination of data augmentation, cleaned labels, and the CLIP model architecture improved the model's ability to:
+- Recognize food waste items accurately
+- Handle variations in food presentation
+- Provide better nutritional inference from visual data
