@@ -15,7 +15,7 @@ This repository documents our data processing pipeline, dataset creation, and pr
 
 ### 2. Dataset 2: Hugging Face Dataset
 
-* **Source**: [`Dldermann/food-waste-dataset-v2`](https://huggingface.co/Dldermann/food-waste-dataset-v2)
+* **Source**: [`Dldermann/food-waste-dataset-v2`](https://huggingface.co/datasets/Dldermann/food-waste-dataset-v2)
 
 #### Key Preprocessing Steps:
 
